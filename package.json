@@ -1,0 +1,31 @@
+{
+  "name": "schematics",
+  "version": "0.0.1",
+  "description": "Create entities with JSONSchema validation",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/nodeunit test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/snap-project/schematics"
+  },
+  "keywords": [
+    "jsonschema",
+    "validation",
+    "models"
+  ],
+  "author": "William Petit <william.petit@ptitcloud.fr>",
+  "license": "GPL",
+  "bugs": {
+    "url": "https://github.com/snap-project/schematics/issues"
+  },
+  "homepage": "https://github.com/snap-project/schematics",
+  "devDependencies": {
+    "nodeunit": "^0.9.0"
+  },
+  "dependencies": {
+    "jsonschema": "^1.0.0",
+    "lodash": "^2.4.1"
+  }
+}
